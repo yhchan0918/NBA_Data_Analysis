@@ -175,6 +175,6 @@ _games = games[games['SEASON'] >= 2005]
 games_formated = prepare_games_data(_games)
 games_formated = games_formated.merge(games[['GAME_ID','GAME_DATE_EST','SEASON','HOME_TEAM_WINS']], on='GAME_ID', how='left')
 games_formated = games_formated.reset_index(drop=True)
-games_formated.to_csv('games_formated_07_20.csv', index=False)
+games_formated.to_csv('games_formated.csv', index=False)
 print('Done Exporting !!!')
 
