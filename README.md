@@ -37,7 +37,7 @@ PTS_home_10g: Mean Number of points scored by Home Team on previous 10 games
 FG_PCT_home_10g: Mean Field Goal Percentage by Home Team on previous 10 games         
 FT_PCT_home_10g: Mean Free Throw Percentage by Home Team on previous 10 games         
 FG3_PCT_home_10g: Mean Three Point Percentage by Home Team on previous 10 games        
-AST_home_10g: Mean Assists by Away Team on previous 10 games            
+AST_home_10g: Mean Assists by Home Team on previous 10 games            
 REB_home_10g: Mean Rebounds by Away Team on previous 10 games            
 WIN_PRCT_away_10g: Mean Win % by Away Team on previous 10 game       
 PTS_away_10g: Mean Number of points scored by Away Team on previous 10 games            
