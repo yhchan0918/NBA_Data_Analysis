@@ -17,7 +17,7 @@ HOME_RECORD_away: Home record on the current season of Away Team
 ROAD_RECORD_away: Road record on the current season of Away Team        
 W_PCT_prev_away: Win % on previous season of Away Team         
 HOME_RECORD_prev_away: Home record on the previous season of Away Team   
-ROAD_RECORD_prev_away: Road record on the current season of Away Team    
+ROAD_RECORD_prev_away: Road record on the previous season of Away Team    
 WIN_PRCT_home_3g: Mean Win % on previous 3 games of Home Team        
 PTS_home_3g: Mean Number of points scored by Home Team on previous 3 games             
 FG_PCT_home_3g: Mean Field Goal Percentage by Home Team on previous 3 games         
