@@ -71,7 +71,6 @@ class Data(BaseModel):
 
 # Api root or home endpoint
 @app.get("/")
-@app.get("/home")
 def read_home():
     """
      Home endpoint which can be used to test the availability of the application.
@@ -85,7 +84,7 @@ def predict(data: Data):
     print(data)
     # Extract data in correct order
     data_dict = data.dict()
-
+    # Scale data
     data_df = pd.DataFrame.from_dict([data_dict])
     data_df = scaler.transform(data_df)
     # Create prediction
