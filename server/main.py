@@ -15,8 +15,8 @@ app = FastAPI(
 )
 
 # Initialize model artifacte files. This will be loaded at the start of FastAPI model server.
-scaler = joblib.load("../model/scaler.joblib")
-model = joblib.load("../model/model.joblib")
+scaler = joblib.load("./model/scaler.joblib")
+model = joblib.load("./model/model.joblib")
 
 # This struture will be used for Json validation.
 # With just that Python type declaration, FastAPI will perform below operations on the request data
@@ -81,7 +81,6 @@ def read_home():
 # ML API endpoint for making prediction aganist the request received from client
 @app.post("/predict")
 def predict(data: Data):
-    print(data)
     # Extract data in correct order
     data_dict = data.dict()
     # Scale data
@@ -97,6 +96,3 @@ def predict(data: Data):
     # Return response back to client
     return {"prediction": prediction_label}
 
-
-if __name__ == "__main__":
-    uvicorn.run("main:app", host="0.0.0.0", port=8000, reload=True)

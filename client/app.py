@@ -149,8 +149,7 @@ def run():
         input_data = user_input_features()
 
     if st.button("Predict"):
-        response = requests.post("http://0.0.0.0:8000/predict", json=input_data)
-        # response = requests.post("http://172.18.0.3:30000/predict", json=data)
+        response = requests.post("http://server:8000/predict", json=input_data)
         prediction = response.text
         st.success(f"The prediction from model: {prediction}")
 
