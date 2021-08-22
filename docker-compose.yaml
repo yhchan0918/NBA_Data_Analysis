@@ -1,9 +1,7 @@
 version: '3'
 services:
   client:
-    build:
-      context: ./client
-      dockerfile: Dockerfile
+    image: yhchan0918/nba-client:1.0
     container_name: client-dc
     ports:
       - 8501:8501
@@ -12,9 +10,7 @@ services:
     volumes:
       - './client:/app'
   server:
-    build:
-      context: ./server
-      dockerfile: Dockerfile
+    image: yhchan0918/nba-server:1.0
     container_name: server-dc
     ports:
       - 8000:8000
