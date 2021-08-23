@@ -7,7 +7,10 @@ import pandas as pd
 def run():
     # Collects user input features into dataframe
 
-    st.title("NBA Game Classifier")
+    title = "NBA Game Classifier"
+
+    st.set_page_config(page_title=title,)
+    st.title(title)
     st.sidebar.markdown(
         """
 [Example CSV input file](https://raw.githubusercontent.com/yhchan0918/NBA_Data_Analysis/main/data/example.csv)
