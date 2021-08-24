@@ -2,7 +2,7 @@
 * Created a NBA Game Winner Team Estimator to determine the winner team based on previous data for home team and away team from Season 2003 - 2020
 * Managed to achieve 0.6968 ROC AUC score with the Logistic Regression model
 * Optimized KNN, Logistic Regression, Random Forest Classifiers and XGBoostusing GridsearchCV to reach the best model. 
-* Built backend API with FastAPI & deploy the frontend app using Streamlit
+* Built backend API using FastAPI & Build frontend app using Streamlit
 * Live Project Link: https://nba-client.herokuapp.com/
 
 ## Data Source
