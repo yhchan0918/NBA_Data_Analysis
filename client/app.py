@@ -16,6 +16,11 @@ def run():
 [Example CSV input file](https://raw.githubusercontent.com/yhchan0918/NBA_Data_Analysis/main/data/example.csv)
 """
     )
+    st.sidebar.markdown(
+        """
+[Github Repo](https://github.com/yhchan0918/NBA_Data_Analysis)
+"""
+    )
     uploaded_file = st.sidebar.file_uploader("Upload your input CSV file", type=["csv"])
     if uploaded_file is not None:
         df = pd.read_csv(uploaded_file)
