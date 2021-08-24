@@ -72,7 +72,7 @@ I have done some EDA for final games data. Out of curiousity, I have done EDA re
 
 ## Model Building 
 
-First, I use season 2004 - 2018 as train set while season 2019 as test set. I ignore data from season 2020 because of covid-19 which is an unexpected variable & causing the games in season 2020 not relatively balanced. After that, I have prepared standard-scaled data for Logistic Regression model and minmax-scaled data for K-Nearest Neighbors model
+First, I use season 2004 - 2018 as train set while season 2019 as test set. I ignore data from season 2020 because of covid-19 which is an unexpected variable & causing the games in season 2020 not relatively balanced. After that, I have prepared standard-scaled data for Logistic Regression model and minmax-scaled data for K-Nearest Neighbors model.
 
 I tried four different models and evaluated them using ROC AUC score. I chose ROC AUC score as the dataset has almost balanced classes which is relatively suitable. Also, its more clearer to check the ability of model to classify true-positive & true-negative.  
 
