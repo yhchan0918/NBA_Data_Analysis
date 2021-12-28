@@ -3,7 +3,7 @@
 * Managed to achieve 0.6968 ROC AUC score with the Logistic Regression model
 * Optimized KNN, Logistic Regression, Random Forest Classifiers and XGBoost using GridsearchCV to reach the best model. 
 * Built backend API using FastAPI & Built frontend app using Streamlit
-* Live Project Link: https://nba-client.herokuapp.com/
+* Live Project Link: https://nba-game-predict-app.herokuapp.com/
 
 ## Data Source
 https://www.kaggle.com/nathanlauga/nba-games
