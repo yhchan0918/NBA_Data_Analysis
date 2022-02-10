@@ -1,4 +1,4 @@
-# What is NBA
+# What is NBA?
 * The National Basketball Association (NBA) is a professional basketball league in North America. It is the premier men's professional basketball league in the world
 
 # NBA Data Analysis & NBA Game Winner Team Estimator: Project Overview
