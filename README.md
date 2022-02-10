@@ -1,3 +1,6 @@
+# What is NBA
+* The National Basketball Association (NBA) is a professional basketball league in North America. It is the premier men's professional basketball league in the world
+
 # NBA Data Analysis & NBA Game Winner Team Estimator: Project Overview
 * Created a NBA Game Winner Team Estimator to determine the winner team based on previous data for home team and away team from Season 2003 - 2020
 * Managed to achieve 0.6968 ROC AUC score with the Logistic Regression model
