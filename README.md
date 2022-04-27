@@ -70,6 +70,13 @@ I have done some EDA for final games data. Out of curiousity, I have done EDA re
 - From stacked bar chart from right side, looking from bottom to top, the light blue bar increases when the mean Win % on previous 10 games of Home Team increases
 
 ![alt text](https://github.com/yhchan0918/NBA_Data_Analysis/blob/main/images/Whether%20Home%20Team%20Wins%20By%20Mean%20Win%20%25%20on%20previous%20games%20of%20Away%20Team.png "Whether Home Team Wins By Mean Win % on previous games of Away Team")
+- For stacked bar chart from left side, looking from bottom to top, the light blue bar decreases when the mean Win % on previous 3 games of Away Team increases
+- For stacked bar chart from right side, looking from bottom to top, the light blue bar decreases when the mean Win % on previous 10 games of Away Team increases
+    
+- We can conclude that
+    - **Higher** the win % of previous games of home team, the **higher** chances that the home team will win
+    - **Higher** the win % of previous games of away team, the **lower** chances that the home team will win
+    - Which it does make sense
 
 ### LeBron's stats
 ![alt text](https://github.com/yhchan0918/NBA_Data_Analysis/blob/main/images/bron_free_throw_percentage_per_game_each_season.png "Bron's Free Throw Percentage Per Game Each Season")
