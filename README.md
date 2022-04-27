@@ -96,9 +96,9 @@ I tried four different models:
 
 ## Model performance
 The Logistic Regression model slightly outperformed the other approaches using cross validation evaluation
-*	**Logistic Regression** : ROC AUC score = 0.6968
-*	**K-Nearest Neighbors** : ROC AUC score = 0.6496
-*	**Random Forest**.      : ROC AUC score = 0.6959
+*	**Logistic Regression** : ROC AUC score = 0.6969
+*	**K-Nearest Neighbors** : ROC AUC score = 0.6519
+*	**Random Forest**.      : ROC AUC score = 0.6966
 *	**XGboost**             : ROC AUC score = 0.6961
 
 ## Productionization 
