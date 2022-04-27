@@ -76,7 +76,6 @@ I have done some EDA for final games data. Out of curiousity, I have done EDA re
 - We can conclude that
     - **Higher** the win % of previous games of home team, the **higher** chances that the home team will win
     - **Higher** the win % of previous games of away team, the **lower** chances that the home team will win
-    - Which it does make sense
 
 ### LeBron's stats
 ![alt text](https://github.com/yhchan0918/NBA_Data_Analysis/blob/main/images/bron_free_throw_percentage_per_game_each_season.png "Bron's Free Throw Percentage Per Game Each Season")
